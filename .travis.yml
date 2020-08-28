@@ -12,5 +12,19 @@ matrix:
       script:
         - mdl . --style custom_rules.rb
 
+    - name: Javascript Linting
+      stage: lint
+      language: node_js
+      node_js:
+        - stable
+      install:
+        - npm install eslint --save-dev
+        - npm install eslint-plugin-react --save-dev
+      cache:
+        directories:
+          - node_modules
+      script:
+        - ./node_modules/.bin/eslint src/*.js
+
 notifications:
   email: false
