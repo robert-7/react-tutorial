@@ -1,0 +1,28 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "Following [this tutorial](https://reactjs.org/tutorial/tutorial.html) to create a tic-tac-toe game using the React framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert-7/react-tutorial.git"
+  },
+  "keywords": [
+    "react",
+    "tutorial"
+  ],
+  "author": "Robert Lech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robert-7/react-tutorial/issues"
+  },
+  "homepage": "https://github.com/robert-7/react-tutorial#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-react": "^7.20.6"
+  },
+  "dependencies": {}
+}
