@@ -22,7 +22,8 @@
   "homepage": "https://github.com/robert-7/react-tutorial#readme",
   "devDependencies": {
     "eslint": "^7.7.0",
-    "eslint-plugin-react": "^7.20.6"
+    "eslint-plugin-react": "^7.20.6",
+    "http-server": "^0.12.3"
   },
   "dependencies": {}
 }
