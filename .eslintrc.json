@@ -18,8 +18,12 @@
         "react"
     ],
     "rules": {
+        "no-undef": "off",                // Workaround since I can't do imports inside Javascript call
         "react/jsx-uses-react": "error",
-        "react/jsx-uses-vars": "error"
+        "react/jsx-uses-vars": "error",
+        "react/prop-types": "off",        // Workaround since I can't do imports inside Javascript call
+        "react/react-in-jsx-scope": "off" // Workaround since I can't do imports inside Javascript call
+
     },
     "settings": {
         "react": {
